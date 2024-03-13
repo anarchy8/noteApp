@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: linear-gradient(to right,#ab36cd,#d03200);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.ekle-btn{
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7px;
+  transition: all ease 0.2s;
+  background-color: transparent;
+}
+.ekle-btn:hover{
+  background-color: black;
+  color: white;
+}
+.ekle-btn:active{
+  background-color: white;
+  color: black;
+}
+/* NOTE CONTAINER ALANI */
+.note-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:start;
+  padding: 30px;
+}
+.note-box{
+  width: 335px;
+  height: 360px;
+  background-color: white;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.note-bar{
+  background-color:coral;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+  height: 16%;
+}
+.note-bar i:hover{
+ color: white;
+ cursor: pointer;
+}
+.text-area-main{
+  width: 100%;
+  height: 84%;
+}
+.note{
+  width: 100%;
+  height: 100%;
+  background-color:cornsilk;
+  padding: 7px;
+  font-size: 25px;
+}
+.text-area-div{
+  width: 100%;
+  height: 100%;
+}
+.text-area{
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  padding: 7px;
+  outline: none;
+  font-size: 25px;
+}
+.hide{
+  display: none;
+}
